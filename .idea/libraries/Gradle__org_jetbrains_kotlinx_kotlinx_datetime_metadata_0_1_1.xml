@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: org.jetbrains.kotlinx:kotlinx-datetime-metadata:0.1.1" type="kotlin.common">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlinx/kotlinx-datetime-metadata/0.1.1/964a255e8f9bf723716411a0cd0b21203deec475/kotlinx-datetime-metadata-0.1.1.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlinx/kotlinx-datetime-metadata/0.1.1/16c7f076722483f3c1aa2378a765baa001a9bdc6/kotlinx-datetime-metadata-0.1.1-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

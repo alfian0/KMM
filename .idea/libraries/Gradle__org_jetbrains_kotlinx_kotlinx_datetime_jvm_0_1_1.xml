@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Gradle: org.jetbrains.kotlinx:kotlinx-datetime-jvm:0.1.1">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlinx/kotlinx-datetime-jvm/0.1.1/f937ac874d2969f50d68701cd2737c0ca1571300/kotlinx-datetime-jvm-0.1.1.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlinx/kotlinx-datetime-jvm/0.1.1/eab1814343367f154782a12ffc69f386f2309a70/kotlinx-datetime-jvm-0.1.1-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlinx/kotlinx-datetime-jvm/0.1.1/a2b8769335615cbd95cbd84ffde5b3dd4cc662a0/kotlinx-datetime-jvm-0.1.1-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

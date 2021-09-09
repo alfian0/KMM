@@ -12,7 +12,7 @@
         <compilerSettings />
         <compilerArguments>
           <option name="languageVersion" value="1.5" />
-          <option name="apiVersion" value="1.5" />
+          <option name="apiVersion" value="1.4" />
           <option name="pluginOptions">
             <array />
           </option>
@@ -60,6 +60,8 @@
     <orderEntry type="module" module-name="KMMApplication.shared.commonMain" scope="TEST" />
     <orderEntry type="library" scope="TEST" name="Gradle: org.jetbrains.kotlin:kotlin-stdlib-common:1.5.20" level="project" />
     <orderEntry type="library" scope="TEST" name="Gradle: org.jetbrains.kotlin:kotlin-test-common:1.5.20" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: org.jetbrains.kotlinx:kotlinx-datetime-metadata:0.1.1" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: org.jetbrains.kotlin:kotlin-stdlib-common:1.4.0" level="project" />
     <orderEntry type="library" scope="TEST" name="Gradle: org.jetbrains.kotlin:kotlin-test-annotations-common:1.5.20" level="project" />
   </component>
   <component name="TestModuleProperties" production-module="KMMApplication.shared.commonMain" />

@@ -195,5 +195,7 @@
     <orderEntry type="library" scope="PROVIDED" name="Kotlin/Native 1.5.20 - posix [ios_x64]" level="project" />
     <orderEntry type="library" scope="PROVIDED" name="Kotlin/Native 1.5.20 - zlib [ios_x64]" level="project" />
     <orderEntry type="library" name="Gradle: org.jetbrains.kotlin:kotlin-stdlib-common:1.5.20" level="project" />
+    <orderEntry type="library" name="Gradle: org.jetbrains.kotlinx:kotlinx-datetime-iosx64:klib:0.1.1" level="project" />
+    <orderEntry type="library" name="Gradle: org.jetbrains.kotlinx:kotlinx-datetime-iosx64:klib:cinterop-date:0.1.1" level="project" />
   </component>
 </module>
