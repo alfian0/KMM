@@ -1,6 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <module external.linked.project.id=":shared:iosTest" external.linked.project.path="$MODULE_DIR$/../../../shared" external.root.project.path="$MODULE_DIR$/../../.." external.system.id="GRADLE" external.system.module.group="KMMApplication" external.system.module.type="sourceSet" external.system.module.version="1.0" type="JAVA_MODULE" version="4">
   <component name="FacetManager">
+    <facet type="android" name="Android">
+      <configuration>
+        <option name="SELECTED_BUILD_VARIANT" value="debug" />
+        <option name="ASSEMBLE_TASK_NAME" value="assembleDebug" />
+        <option name="COMPILE_JAVA_TASK_NAME" value="compileDebugSources" />
+        <afterSyncTasks>
+          <task>generateDebugSources</task>
+        </afterSyncTasks>
+        <option name="ALLOW_USER_CONFIGURATION" value="false" />
+        <option name="MANIFEST_FILE_RELATIVE_PATH" value="/src/androidMain/AndroidManifest.xml" />
+        <option name="RES_FOLDER_RELATIVE_PATH" value="/src/main/res" />
+        <option name="RES_FOLDERS_RELATIVE_PATH" value="file://$MODULE_DIR$/../../../shared/src/main/res;file://$MODULE_DIR$/../../../shared/src/androidMain/res;file://$MODULE_DIR$/../../../shared/src/debug/res;file://$MODULE_DIR$/../../../shared/src/androidDebug/res;file://$MODULE_DIR$/../../../shared/build/generated/res/rs/debug;file://$MODULE_DIR$/../../../shared/build/generated/res/resValues/debug" />
+        <option name="TEST_RES_FOLDERS_RELATIVE_PATH" value="file://$MODULE_DIR$/../../../shared/src/androidTest/res;file://$MODULE_DIR$/../../../shared/src/androidAndroidTest/res;file://$MODULE_DIR$/../../../shared/src/androidTestDebug/res;file://$MODULE_DIR$/../../../shared/src/androidAndroidTestDebug/res;file://$MODULE_DIR$/../../../shared/build/generated/res/rs/androidTest/debug;file://$MODULE_DIR$/../../../shared/build/generated/res/resValues/androidTest/debug" />
+        <option name="ASSETS_FOLDER_RELATIVE_PATH" value="/src/main/assets" />
+        <option name="PROJECT_TYPE" value="1" />
+      </configuration>
+    </facet>
     <facet type="kotlin-language" name="Kotlin">
       <configuration version="4" platform="Native (ios_x64) " allPlatforms="Native []/Native [ios_x64]" useProjectSettings="false" isTestModule="true" externalProjectId=":shared" pureKotlinSourceFolders="$MODULE_DIR$/../../../shared/src/androidDebug/kotlin;/Users/macintosh/Documents/KMMApp/shared/src/debug/kotlin;/Users/macintosh/Documents/KMMApp/shared/src/debug/java;/Users/macintosh/Documents/KMMApp/shared/src/androidDebugAndroidTest/kotlin;/Users/macintosh/Documents/KMMApp/shared/src/androidDebugUnitTest/kotlin;/Users/macintosh/Documents/KMMApp/shared/src/androidRelease/kotlin;/Users/macintosh/Documents/KMMApp/shared/src/release/kotlin;/Users/macintosh/Documents/KMMApp/shared/src/release/java;/Users/macintosh/Documents/KMMApp/shared/src/androidReleaseUnitTest/kotlin;/Users/macintosh/Documents/KMMApp/shared/src/iosMain/kotlin;/Users/macintosh/Documents/KMMApp/shared/src/iosMain/kotlin">
         <dependsOnModuleNames>:shared:commonTest</dependsOnModuleNames>
@@ -21,30 +38,15 @@
             <array />
           </option>
           <option name="pluginClasspaths">
-            <array />
+            <array>
+              <option value="$KOTLIN_BUNDLED$/lib/kotlinx-serialization-compiler-plugin.jar" />
+            </array>
           </option>
           <option name="multiPlatform" value="true" />
           <option name="errors">
             <ArgumentParseErrors />
           </option>
         </compilerArguments>
-      </configuration>
-    </facet>
-    <facet type="android" name="Android">
-      <configuration>
-        <option name="SELECTED_BUILD_VARIANT" value="debug" />
-        <option name="ASSEMBLE_TASK_NAME" value="assembleDebug" />
-        <option name="COMPILE_JAVA_TASK_NAME" value="compileDebugSources" />
-        <afterSyncTasks>
-          <task>generateDebugSources</task>
-        </afterSyncTasks>
-        <option name="ALLOW_USER_CONFIGURATION" value="false" />
-        <option name="MANIFEST_FILE_RELATIVE_PATH" value="/src/androidMain/AndroidManifest.xml" />
-        <option name="RES_FOLDER_RELATIVE_PATH" value="/src/main/res" />
-        <option name="RES_FOLDERS_RELATIVE_PATH" value="file://$MODULE_DIR$/../../../shared/src/main/res;file://$MODULE_DIR$/../../../shared/src/androidMain/res;file://$MODULE_DIR$/../../../shared/src/debug/res;file://$MODULE_DIR$/../../../shared/src/androidDebug/res;file://$MODULE_DIR$/../../../shared/build/generated/res/rs/debug;file://$MODULE_DIR$/../../../shared/build/generated/res/resValues/debug" />
-        <option name="TEST_RES_FOLDERS_RELATIVE_PATH" value="file://$MODULE_DIR$/../../../shared/src/androidTest/res;file://$MODULE_DIR$/../../../shared/src/androidAndroidTest/res;file://$MODULE_DIR$/../../../shared/src/androidTestDebug/res;file://$MODULE_DIR$/../../../shared/src/androidAndroidTestDebug/res;file://$MODULE_DIR$/../../../shared/build/generated/res/rs/androidTest/debug;file://$MODULE_DIR$/../../../shared/build/generated/res/resValues/androidTest/debug" />
-        <option name="ASSETS_FOLDER_RELATIVE_PATH" value="/src/main/assets" />
-        <option name="PROJECT_TYPE" value="1" />
       </configuration>
     </facet>
   </component>
@@ -215,7 +217,38 @@
     <orderEntry type="library" scope="TEST" name="Gradle: org.jetbrains.kotlin:kotlin-stdlib-common:1.5.20" level="project" />
     <orderEntry type="library" scope="TEST" name="Gradle: org.jetbrains.kotlinx:kotlinx-datetime-iosx64:klib:0.1.1" level="project" />
     <orderEntry type="library" scope="TEST" name="Gradle: org.jetbrains.kotlinx:kotlinx-datetime-iosx64:klib:cinterop-date:0.1.1" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: io.github.aakira:napier-iosx64:klib:1.4.1" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: io.ktor:ktor-client-logging-iosx64:klib:1.5.4" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: io.ktor:ktor-client-serialization-iosx64:klib:1.5.4" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: io.ktor:ktor-client-ios-iosx64:klib:1.5.4" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: io.ktor:ktor-client-core-iosx64:klib:1.5.4" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: org.jetbrains.kotlinx:kotlinx-serialization-core-iosx64:klib:1.1.0" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: org.jetbrains.kotlinx:kotlinx-coroutines-core-iosx64:klib:1.4.3-native-mt" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: org.jetbrains.kotlinx:atomicfu-iosx64:klib:0.15.1" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: org.jetbrains.kotlinx:atomicfu-iosx64:klib:cinterop-interop:0.15.1" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: io.ktor:ktor-client-json-iosx64:klib:1.5.4" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: org.jetbrains.kotlinx:kotlinx-serialization-json-iosx64:klib:1.1.0" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: io.ktor:ktor-http-cio-iosx64:klib:1.5.4" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: io.ktor:ktor-http-iosx64:klib:1.5.4" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: io.ktor:ktor-utils-iosx64:klib:1.5.4" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: io.ktor:ktor-utils-iosx64:klib:cinterop-utils:1.5.4" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: io.ktor:ktor-io-iosx64:klib:1.5.4" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: io.ktor:ktor-io-iosx64:klib:cinterop-bits:1.5.4" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: io.ktor:ktor-io-iosx64:klib:cinterop-sockets:1.5.4" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: io.ktor:ktor-client-logging:1.5.4" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: io.ktor:ktor-client-serialization:1.5.4" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: io.ktor:ktor-client-core:1.5.4" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: org.jetbrains.kotlinx:kotlinx-serialization-core:1.1.0" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: io.github.aakira:napier:1.4.1" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: io.ktor:ktor-client-ios:1.5.4" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: org.jetbrains.kotlinx:kotlinx-coroutines-core:1.4.3-native-mt" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: io.ktor:ktor-client-json:1.5.4" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: org.jetbrains.kotlinx:kotlinx-serialization-json:1.1.0" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: io.ktor:ktor-http-cio:1.5.4" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: io.ktor:ktor-http:1.5.4" level="project" />
     <orderEntry type="library" scope="TEST" name="Gradle: org.jetbrains.kotlinx:kotlinx-datetime-metadata:0.1.1" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: io.ktor:ktor-utils:1.5.4" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: io.ktor:ktor-io:1.5.4" level="project" />
   </component>
   <component name="TestModuleProperties" production-module="KMMApplication.shared.iosMain" />
 </module>
