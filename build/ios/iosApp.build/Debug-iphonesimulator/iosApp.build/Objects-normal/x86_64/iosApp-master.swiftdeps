@@ -1,6 +1,0 @@
-version: "Apple Swift version 5.4.2 (swiftlang-1205.0.28.2 clang-1205.0.19.57)"
-options: "700279ce82185b471551cf6fe6577cd7"
-build_time: [1631182839, 243046000]
-inputs:
-  "/Users/macintosh/Documents/KMMApp/iosApp/iosApp/iOSApp.swift": [1631081752, 476989614]
-  "/Users/macintosh/Documents/KMMApp/iosApp/iosApp/ContentView.swift": [1631177361, 317459260]
